@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxinbox</title>
+    <style>
+        #one{
+            height:400px;
+            width:400px;
+            border:2px solid black; 
+            position: relative;
+            margin:100px;
+            padding:10px;
+          }
+        #two-1{
+            padding:100px;
+            position:absolute;
+            transform:rotate(0deg);
+            background-color:rgb(244, 171, 241);
+            transform-style:preserve-3d; 
+          }
+       #two-2{
+           padding:100px;
+           position:absolute;
+           transform:rotate(-90deg);
+           background-color:rgb(169, 103, 232);
+           
+       }
+       #two-3{
+          padding:100px;
+          position:inherit;
+          transform:rotate(-90deg);
+          background-color:rgb(244, 171, 241);
+       }
+    </style> 
+        
+    
+</head>
+<body>
+    <div id="one"><h3>Vibhavri</h3>
+        <div id="two-1"><div id="two-2"><div id="two-3"></div></div></div>
+    </div>
+</body>
+</html>
